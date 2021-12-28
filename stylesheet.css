@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+box-sizing: border-box;
+line-height: 1.8;
+
+}
+
+.clr{
+    clear: both;
+}
+.content {
+    background-image: url('images/3717.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    height: 100vh;
+    text-align: center;
+}
+
+
+.adress{
+    padding: 180px;
+    color:#4e3510;
+
+}
+
+.content h1{
+    font-weight: 100;
+    font-size: 70px;
+    margin-bottom: 20px;
+   
+}
+
+/* .content p{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 500;
+   
+
+} */
+.btn{
+    
+   
+    padding: 15px 28px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: rgb(180, 182, 136);
+    font-weight: bolder;
+
+}
+.btn1{
+    background-color: #4e3510;
+    border: none;
+
+
+}
+.btn1:hover{
+    color:#4e3510;
+    background-color: rgb(180, 182, 136);
+}
+.btn2{
+    border: 2px solid #4e3510 ;
+    background-color: transparent;
+}
+.btn2:hover{
+    color:#4e3510;
+    background-color:rgb(180, 182, 136);
+}
+.about{
+   
+    margin-top: 80px;
+    overflow: auto;
+   }
+    .aboutimg{
+      width: 50%;
+     float: left;
+   }
+   .aboutimg img{
+       width: 80%; 
+       margin-left:60px;
+   }
+   .aboutcare{
+       margin-left: 30px;
+       width: 40%;
+       float: left;
+   }
+   .aboutcare h2{
+    
+       font-size: 32px;
+       font-weight: 400;
+       color: #4e3510;
+       margin-bottom: 40px;
+   }
+   .aboutcare p{
+       font-weight: 700;
+       color: #493e0c;
+       font-size: 17px;
+       padding-bottom:30px ;
+   
+    
+   
+   }
+   .aboutcare img{
+    height: 40px;
+    width: 40px;
+    float: right;
+}  
+
+.ourlocation{
+    background-color: #f8f8f8;
+    margin-top: 80px;
+    overflow: auto;
+    padding: 70px 0px;
+
+    
+}
+
+.location{
+  
+    width: 50%;
+    float: left;
+    margin-left:70px ;
+    padding: 20px;
+}
+.location h2{
+  
+   font-size: 32px;
+   color: #4e3510;
+   font-weight: 300;
+ 
+}
+.location p{
+    color: #493e0c;
+    padding: 30px 20px 0px 10px;
+    font-size: 17px;
+}
+ .locationimg{
+    
+     float: left;
+     width: 40%;
+     text-align: center;
+ }
+
+ .locationimg img{
+     width: 90%;
+    
+ } 
+
+ .products{
+    text-align: center;
+    overflow: auto; 
+    margin: 70px 40px;
+  
+}
+.products h2{
+    font-weight: bolder; 
+    color: #4e3510;
+    padding-bottom: 40px;
+}
+
+.product h3{
+    color: #4e3510;
+    font-size: 22px;
+    margin-top: 30px;
+font-weight: 300;
+padding-bottom: 20px;
+}
+
+.product{
+width:25%;
+float: left;
+padding: 0px 20px;
+}
+.product img{
+    width: 100%;
+  }
+
+
+  .suppliers{
+    background-color: #f8f8f8;
+     overflow: auto;
+     padding:70px 0px ;
+     text-align: center;
+ }
+
+ .supplier h2{
+    font-weight: bolder; 
+    color: #4e3510;
+    padding-bottom: 40px;
+}
+
+.supplier h3{
+    color: #4e3510;
+    font-size: 22px;
+    margin-top: 30px;
+font-weight: 300;
+padding-bottom: 20px;
+}
+
+.supplier{
+width:50%;
+float: left;
+color: #4e3510;
+padding: 0px 20px;
+}
+.supplier img{
+    width: 60px;
+  }
+
+   /*contact us*/
+   .ContactUs{
+   text-align: center;
+    overflow: auto;
+    color: #4e3510;
+    padding: 3rem 2rem;
+    margin: auto;
+  }
+  .ContactUs h1,h2 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    }
+    .register{
+     
+      margin: 2rem 10rem;
+    }
+   
+ 
+   .subject input{
+    border: solid .5px #b4a354;
+    border-radius: 4px;
+     
+    transition:.2s .2s ease-in-out;
+      }
+   input label{
+       text-align: right;
+   }
+
+ 
+  .register:hover .subject:hover input {
+    border: solid .5px #4e3510;
+  }
+
+ 
+  .submit{
+    margin-right: 60rem;
+  }
+  .submit button {
+    color: #fff;
+    background-color: #4e3510;
+    border-radius: 3px;
+    border: #5f4113;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    font-size: 1rem; 
+  }
+
+  .submit:hover button:hover {
+    background-color: #b4a354;
+  } 
+
