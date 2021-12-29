@@ -151,32 +151,32 @@
         <h2>قُم بالإبلاغ عن حيوان  بدون مؤوى </h2>
         <div class="register">
             <form class="container" action="reg.php" method="post">
-                <div class="mb-3 subject">
+                <div class="mb-3 subject " id="inputName">
                   <input type="text" class="form-control" placeholder="الإسم" id="name" name="name" >
                 
                 </div>
-                <div class="mb-3 subject">
+                <div class="mb-3 subject" id="inputEmail">
                  
                   <input type="email" class="form-control" id="email" placeholder="الايميل" aria-describedby="email" name="email">
                 </div>
-                <div class="mb-3 subject">
+                <div class="mb-3 subject"id="inputKind">
                   
                     <input type="text" class="form-control" placeholder="نوع الحيوان " id="kind" name="kind" >
                   
                   </div>
-                  <div class="mb-3 subject">
+                  <div class="mb-3 subject" id="inputAdress">
         
              
                     <input type="text" class="form-control" placeholder="عنوان الحيوان الضال" id="name" name="adress" >
                   
                   </div>
-                  <div class=" subject">
+                  <div class=" subject" id="inputDetails">
                     <textarea class="form-control" placeholder="تفاصيل أخرى" id="floatingTextarea " name="details"></textarea>
             
                   </div>
         
                   <div class="submit">
-                    <button type="submit" value="submit">ارسال الرسالة </button>
+                    <button type="submit" onclick="addProduct()" value="submit">ارسال الرسالة </button>
         
                 </div>
         
@@ -190,5 +190,6 @@
   <script src="js/jquery-3.4.1.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
